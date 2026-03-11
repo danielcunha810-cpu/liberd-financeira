@@ -88,20 +88,17 @@ export default function App() {
             Domina tu dinero, elimina tus deudas y construye riqueza real paso a paso, <strong className="text-zinc-200 font-semibold">incluso si hoy estás en cero o tienes ingresos variables.</strong>
           </p>
 
-          <div className="relative max-w-4xl mx-auto mb-12 rounded-2xl overflow-hidden shadow-2xl border border-zinc-800 aspect-video bg-zinc-900 group cursor-pointer flex items-center justify-center">
-            {/* VSL Placeholder */}
+          <div className="relative max-w-sm sm:max-w-md mx-auto mb-12 rounded-xl overflow-hidden shadow-[0_0_50px_rgba(234,179,8,0.2)] border border-zinc-800 bg-zinc-900 flex items-center justify-center transform hover:-translate-y-2 transition-transform duration-500">
+            {/* Book Cover Image */}
             <img 
-              src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=2070" 
-              alt="Video de presentación" 
-              className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity duration-300"
+              src="/portada.jpg" 
+              alt="Libertad Financiera en 30 Días" 
+              className="w-full h-auto object-contain"
+              onError={(e) => {
+                // Fallback image in case the user hasn't uploaded 'portada.jpg' yet
+                e.currentTarget.src = "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800";
+              }}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent"></div>
-            <div className="relative z-10 w-20 h-20 bg-yellow-500 rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(234,179,8,0.5)] group-hover:scale-110 transition-transform duration-300">
-              <Play className="w-8 h-8 text-zinc-950 ml-1 fill-zinc-950" />
-            </div>
-            <div className="absolute bottom-6 left-0 right-0 text-center">
-              <p className="text-sm font-medium text-zinc-300">Haz clic para ver el video explicativo</p>
-            </div>
           </div>
 
           <CTAButton text="SÍ, QUIERO TRANSFORMAR MIS FINANZAS HOY" />
