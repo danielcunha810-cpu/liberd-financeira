@@ -17,7 +17,7 @@ import {
 } from 'lucide-react';
 import { useState } from 'react';
 
-const CHECKOUT_URL = "https://pay.hotmart.com/K104558102K";
+const CHECKOUT_URL = "https://pay.hotmart.com/K104558102K?checkoutMode=10";
 
 function CTAButton({ text, className = "" }: { text: string, className?: string }) {
   return (
