@@ -84,7 +84,7 @@ export default function App() {
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight mb-8 leading-[1.1]">
-            Descubre el Método Simple Para <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Salir de Deudas</span> y Hacer Que Tu Dinero Sobre a Fin de Mes
+            Descubre el Método Simple Para <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Salir de las Deudas</span> y Hacer Que Tu Dinero Sobre a Fin de Mes
           </h1>
           
           <p className="text-xl sm:text-2xl text-zinc-400 mb-12 max-w-3xl mx-auto leading-relaxed">
@@ -253,7 +253,7 @@ export default function App() {
                   </div>
                   <div>
                     <h4 className="text-lg font-bold text-zinc-100">Planificador de Eliminación de Deudas</h4>
-                    <p className="text-zinc-400 text-sm mt-1">La herramienta definitiva para aplicar el método avalancha y salir de deudas meses o años antes de lo previsto. <span className="text-yellow-500/70 line-through ml-2">(Valor: $29)</span></p>
+                    <p className="text-zinc-400 text-sm mt-1">La herramienta definitiva para aplicar el método avalancha y salir de las deudas meses o años antes de lo previsto. <span className="text-yellow-500/70 line-through ml-2">(Valor: $29)</span></p>
                   </div>
                 </div>
               </div>
